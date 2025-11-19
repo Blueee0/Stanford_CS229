@@ -1,4 +1,4 @@
-# Stanford CS229 机器学习, Lecture 4: 指数族与广义线性模型
+# Standford CS229 2022Fall，第3讲：指数族与广义线性模型
 
 ## 思维导图
 ![alt text](assets/CS229__Lecture_3_Exponential_family__Generalized_Linear_Models/image.png)

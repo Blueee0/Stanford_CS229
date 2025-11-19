@@ -1,4 +1,4 @@
-# 斯坦福 CS229 2022Fall，第 2.2 讲 分类问题 - 逻辑回归
+# Standford CS229 2022Fall，第 2.2 讲 分类问题 - 逻辑回归
 
 ## 思维导图
 ![alt text](assets/CS229__Lecture_2.2_Logistic_Regression/image-2.png)

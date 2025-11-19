@@ -1,4 +1,4 @@
-# CS229 机器学习， Lecture 6，朴素贝叶斯，拉普拉斯平滑
+# Standford CS229 2022Fall，第5讲：朴素贝叶斯，拉普拉斯平滑
 
 ## 思维导图
 ![alt text](assets/CS229__Lecture_5_Naive_Bayes__Laplace_Smoothing/image-2.png)

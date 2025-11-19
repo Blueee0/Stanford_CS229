@@ -1,4 +1,4 @@
-# Stanford CS229 机器学习，第4讲：高斯判别分析，朴素贝叶斯
+# Standford CS229 2022Fall，第4讲：高斯判别分析，朴素贝叶斯
 
 ## 思维导图
 ![alt text](assets/CS229__Lecture_4_Gaussian_discriminant_analysis__Naive_Bayes/image-1.png)

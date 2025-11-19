@@ -1,4 +1,4 @@
-# Stanford CS229 机器学习， Lecture 7, 核函数 (Kernels)
+# Standford CS229 2022Fall，第六讲：核函数 (Kernels)
 
 ## 思维导图
 ![alt text](assets/CS229__Lecture_6_Kernels__Stanford__Machine_Learning/image.png)

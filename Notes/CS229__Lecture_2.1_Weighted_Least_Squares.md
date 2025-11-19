@@ -1,4 +1,4 @@
-# 斯坦福 CS229 2022Fall，第 2.1 讲 回归问题-从概率的角度看待线性回归
+# Standford CS229 2022Fall，第 2.1 讲 回归问题-从概率的角度看待线性回归
 
 ## 思维导图
 ![alt text](assets/CS229__Lecture_2.1_Weighted_Least_Squares/image-1.png)
