@@ -1,86 +1,70 @@
-# Stanford CS229 机器学习课程学习笔记（2022 Fall 版本整理）
+# Stanford CS229 机器学习课程学习笔记（已完结）
 
-这是我的 Stanford CS229（机器学习）课程的个人学习笔记仓库。本文档和笔记主要基于 2022 年秋季（2022 Fall）学期的课程资料、讲义与作业进行整理与记录；同时参考了其他公开笔记与资源以补充理解。
+这是一份比较简陋的 CS229（机器学习）课程学习笔记，目标是迅速学习机器学习基础，为后续 LLM 的学习奠基。
 
-## 课程简介
+## 项目说明
 
-Stanford CS229 是斯坦福大学的核心机器学习课程。本仓库以 2022 Fall 学期资料为主线整理笔记。本课程通常覆盖以下主要内容：
+本仓库整理了 Stanford CS229 2022 Fall 版本的课程笔记，主要涵盖：
 - 监督学习算法与应用
 - 无监督学习方法
 - 深度学习基础
-- 学习理论
+- 学习理论与模型选择
 
-## 学习资源（以 2022 Fall 为主）
+**注意**：这是一份快速学习笔记，内容相对简洁，主要用于快速掌握机器学习核心概念，为后续大语言模型（LLM）的学习打下基础。
 
-### 官方资源（主要来源）
-1. CS229 官方网站与课程讲义（请以 Stanford 官方页面或课程当期讲义为准）
+## 笔记列表
 
-### 参考资料（补充）
-1. 公开笔记与书籍（如 GitHub 上的 CS229 笔记仓库、博客和教程）
-2. 在线实战与讲解文章，用于补充实现细节与工程实践
+本仓库已完成以下讲座的笔记整理：
 
-## 笔记组织
+### 监督学习
+- [Lecture 1: 监督学习设置与线性回归](Notes/CS229__Lecture_1_Supervised_learning_setup.md)
+- [Lecture 2.1: 加权最小二乘法](Notes/CS229__Lecture_2.1_Weighted_Least_Squares.md)
+- [Lecture 2.2: 逻辑回归](Notes/CS229__Lecture_2.2_Logistic_Regression.md)
+- [Lecture 3: 指数族与广义线性模型](Notes/CS229__Lecture_3_Exponential_family__Generalized_Linear_Models.md)
+- [Lecture 4: 高斯判别分析与朴素贝叶斯](Notes/CS229__Lecture_4_Gaussian_discriminant_analysis__Naive_Bayes.md)
+- [Lecture 5: 朴素贝叶斯与拉普拉斯平滑](Notes/CS229__Lecture_5_Naive_Bayes__Laplace_Smoothing.md)
+- [Lecture 6: 核方法](Notes/CS229__Lecture_6_Kernels__Stanford__Machine_Learning.md)
 
-本仓库的笔记按照课程进度和主题进行组织，每个主题都包含：
-- 核心概念解释
-- 数学推导和证明
-- 算法实现代码
-- 应用案例分析
-- 个人理解和总结
+### 神经网络
+- [Lecture 7: 神经网络（一）](Notes/CS229__Lecture_7_Neural_Networks_1.md)
+- [Lecture 8: 神经网络（二）- 反向传播](Notes/CS229__Lecture_8_Neural_Networks_2_backprop.md)
 
-## 学习进度
+### 模型选择与评估
+- [Lecture 9: 偏差与方差、正则化](Notes/CS229__Lecture_9_Bias___Variance__Regularization.md)
+- [Lecture 10: 特征与模型选择、机器学习建议](Notes/CS229__Lecture_10_Feature_and_Model_selection__ML_Advice.md)
 
-### 第1周：机器学习导论与线性回归
-- [ ] 课程介绍和基础概念
-- [ ] 监督学习概述
-- [ ] 线性回归模型
-- [ ] 梯度下降算法
-
-### 第2周：分类与逻辑回归
-- [ ] 逻辑回归
-- [ ] 正则化
-- [ ] 分类问题实践
-
-### 第3周：神经网络基础
-- [ ] 神经网络表示
-- [ ] 前向传播
-- [ ] 反向传播算法
-
-### 第4周：机器学习诊断
-- [ ] 评估假设
-- [ ] 偏差vs方差
-- [ ] 正则化与模型选择
-- [ ] 学习曲线
-
-### 第5周：支持向量机
-- [ ] 大间距分类器
-- [ ] 核函数
-- [ ] SMO算法
-
-### 第6周：无监督学习
-- [ ] 聚类算法
-- [ ] K-means
-- [ ] PCA降维
-- [ ] 异常检测
-
-## 实践项目
-- [ ] 线性回归实现
-- [ ] 逻辑回归实现
-- [ ] 神经网络实现
-- [ ] SVM分类器实现
+### 无监督学习
+- [Lecture 11: K-Means 聚类](Notes/CS229__Lecture_11_KMeans.md)
+- [Lecture 12.1: EM 算法](Notes/CS229__Lecture_12.1_EM.md)
+- [Lecture 12.2: EM 算法（续）](Notes/CS229__Lecture_12.2_EM.md)
+- [Lecture 13: 因子分析](Notes/CS229__Lecture_13_Factor_Analysis.md)
+- [Lecture 14: 主成分分析（PCA）](Notes/CS229__Lecture_14_PCA.md)
+- [Lecture 15: 独立成分分析（ICA）](Notes/CS229__Lecture_15_ICA.md)
 
 ## 目录结构
 
 ```
-├── Notes/                  # 笔记主目录（按讲次与主题组织，基于 2022 Fall）
-├── Code/                   # 示例实现（python / matlab / jupyter 等）
-├── Assignments/            # 课程作业与解答（供学习参考）
-└── Reference/              # 参考资料与外部链接
+├── Notes/                  # 笔记主目录（按讲次与主题组织）
+│   ├── assets/            # 笔记中的图片资源
+│   └── *.md               # 各讲次笔记文件
+├── Reference/              # 参考资料
+│   ├── 0917Ray/          # 参考笔记来源1
+│   └── PKUFlyingPig/     # 参考笔记来源2
+└── README.md              # 本文件
 ```
+
+## 参考来源与致谢
+
+本笔记在整理过程中主要参考了以下优秀的开源笔记，非常感谢两位作者的开源精神：
+
+1. **[0917Ray/0917Ray](https://github.com/0917Ray/0917Ray)** - 提供了详细的 CS229 课程笔记和参考资料
+2. **[PKUFlyingPig/CS229](https://github.com/PKUFlyingPig/CS229)** - 提供了高质量的 CS229 学习笔记和整理
+
+本仓库中的大部分笔记内容都参考了以上两个仓库，在此表示诚挚的感谢！
 
 ## 免责声明
 
-这是个人学习笔记，仅供学习参考。如有错误或不准确之处，欢迎在 Issues 中指出。
+这是个人学习笔记，仅供学习参考。笔记内容相对简洁，可能存在错误或不准确之处，欢迎在 Issues 中指出。
 
 ## 版权说明
 
